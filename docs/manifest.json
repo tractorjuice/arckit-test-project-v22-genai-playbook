@@ -1,0 +1,72 @@
+{
+  "generated": "2026-02-07T16:30:00Z",
+  "repository": {
+    "owner": "tractorjuice",
+    "name": "arckit-test-project-v22-genai-playbook",
+    "branch": "main"
+  },
+  "defaultDocument": "projects/000-global/ARC-000-PRIN-v1.0.md",
+  "guides": [],
+  "global": [
+    {
+      "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
+      "title": "Architecture Principles",
+      "category": "Architecture",
+      "documentId": "ARC-000-PRIN-v1.0",
+      "isDefault": true
+    }
+  ],
+  "globalExternal": [],
+  "globalPolicies": [],
+  "projects": [
+    {
+      "id": "001-uk-government-genai-playbook",
+      "name": "UK Government GenAI Playbook",
+      "documents": [
+        {
+          "path": "projects/001-uk-government-genai-playbook/ARC-001-REQ-v1.0.md",
+          "title": "Requirements",
+          "category": "Discovery",
+          "documentId": "ARC-001-REQ-v1.0"
+        },
+        {
+          "path": "projects/001-uk-government-genai-playbook/ARC-001-DSCT-v1.0.md",
+          "title": "Data Source Discovery",
+          "category": "Research",
+          "documentId": "ARC-001-DSCT-v1.0"
+        },
+        {
+          "path": "projects/001-uk-government-genai-playbook/ARC-001-RSCH-v1.0.md",
+          "title": "Research Findings",
+          "category": "Discovery",
+          "documentId": "ARC-001-RSCH-v1.0"
+        },
+        {
+          "path": "projects/001-uk-government-genai-playbook/ARC-001-AIPB-v1.0.md",
+          "title": "AI Playbook Assessment",
+          "category": "Compliance",
+          "documentId": "ARC-001-AIPB-v1.0"
+        }
+      ],
+      "diagrams": [],
+      "research": [
+        {
+          "path": "projects/001-uk-government-genai-playbook/research/ARC-001-AZRS-v1.0.md",
+          "title": "Azure Research",
+          "documentId": "ARC-001-AZRS-v1.0"
+        },
+        {
+          "path": "projects/001-uk-government-genai-playbook/research/ARC-001-AWRS-v1.0.md",
+          "title": "AWS Research",
+          "documentId": "ARC-001-AWRS-v1.0"
+        }
+      ],
+      "decisions": [],
+      "wardleyMaps": [],
+      "dataContracts": [],
+      "reviews": [],
+      "vendors": [],
+      "external": []
+    }
+  ]
+}
