@@ -1,5 +1,17 @@
 {
+  "extraKnownMarketplaces": {
+    "arc-kit": {
+      "source": {
+        "source": "github",
+        "repo": "tractorjuice/arc-kit"
+      }
+    }
+  },
   "enabledPlugins": {
     "arckit@arc-kit": true
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "/workspaces/arckit-test-project-v20-uae-moi-ipad/.claude/statusline.sh"
   }
 }
